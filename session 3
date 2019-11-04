@@ -1,0 +1,38 @@
+#creating student record
+
+class Student:
+
+  def __init(self,name,course,number):
+    self.name=name
+    self.course=course
+    self.number=number
+  
+  def display(self):
+    print(self.name)
+    print(self.course)
+    print(self.number)
+    
+  st=list()
+  n=int(input("enter number of students)
+  print("student entry")
+  for i in range(n)
+  print("student : )
+  name=input("name : "
+  course=input("course : ")
+  number = input ("number  :)
+  st.append(student(name,course,number))
+  
+  print("student info : ")
+  for i in range(n):
+   for j in range(i+1,n):
+    if (st[i].name>st[j].name):
+    tmp=st[i]
+    st[i]=st[j]
+    st[j]=tmp
+    
+    print("student info : ")
+       for i in range(n):
+       st[i].display()
+  
+   
+ 
