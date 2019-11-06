@@ -1,0 +1,35 @@
+class Student:
+   def __init__ (self,name,number,course):
+    self.name=name
+    self.number=number
+    self.course=course
+    
+   def display(self):
+   print(self.name , end="")
+   print(self.course , end="")
+   print(self.number , end="")
+   
+ st=list()
+ n=int(input)
+ print(input("enter information ")
+ for i range (n):
+     print("Student, i+1)
+     name = input("name :")
+     cousre = input("cousre :")
+     number = input("number :")
+     st.append(student(name,number,cousre)
+     
+  for i in range(n):
+     for j  in range(i+1,n):
+      if (st[i].name > st[j].name):
+        temp=st[i]
+        st[i]=st[j]
+        st[j]=temp
+        
+      for i in range(n):
+      st.display()
+      
+   def retrieve():
+      min_num=number.index(min(number))
+      print(min_num)
+      
