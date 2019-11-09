@@ -1,0 +1,30 @@
+record = []
+def new_student():
+    if len(record)>20:
+        print("student data")
+        return
+
+    data=[]
+    number=input("enter num")
+    name=input("enter name")
+    rollno=input("enter ")
+    data.append(number)
+    data.append(name)
+    data.append(int(rollno))
+    record.append(data)
+    print("data inserted ")
+    return
+
+def display_student():
+    index = input("enter ")
+    if int(index) > (len(record))+1:
+        print("student not found")
+        display_student()
+    else:
+        print("num : " + str(record[int(index)][0]))
+        print("name : " + str(record[int(index)][1]))
+        print("roll no: " + str(record[int(index)][2]))
+
+new_student()
+display_student()
+
