@@ -1,0 +1,50 @@
+class Student:
+    def student(self ,name ,number ,course) :
+        self.name = name
+        self.number = number
+        self.course=course
+
+    def get_number(self):
+        return self[0]
+    def get_name(self):
+        return self[0]
+    def get_course(self):
+        return self[0]
+st1=list()
+n=int(input())
+print("hello")
+for i in range(n):
+    print(Student,i+1)
+    name=input("name")
+    number=input("numb")
+    course=input("course")
+    st1.append(number)
+
+
+for i in range(n):
+    for j in range(i+1,n):
+        if(st1.number >st1[j].number):
+            temp=st1[i]
+            st1[i]=st1[j]
+            st1[j]=temp
+for i in range(n):
+    st1.get(min(number))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
